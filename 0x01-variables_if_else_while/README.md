@@ -5,4 +5,5 @@ task 3 printing alphabet in lowercase and then in upper case
 task 4 printing alphabet in lowercase
 task 5 printing all single digit number of base starting form 10
 task 6 printing single digit number base 10
-task 7 printing lowercase alphabet in reverse 
+task 7 printing lowercase alphabet in reverse
+task 8 print allnebers in 16 lowercase 
