@@ -1,14 +1,14 @@
 #include <unistd.h>
 #include "main.h"
-/*
-* print_alphabet - check alphabet
+/**
+* print_alphabet - Check description
 * Description: It prints the alphabet in lowercase fallowed by a new line
-* Return: Always 0
- */
+* Return: Nothing.
+*/
 void print_alphabet(void)
 {
-char j;
-for (j = 'a' ; j <= 'z' ; j++)
-_putchar(j);
+char i;
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
 _putchar('\n');
 }
