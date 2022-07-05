@@ -1,6 +1,8 @@
 #include "main.h"
+#include <unistd.h>
 /*
- * print alphabet 10x
+ * print_alphabet_x10 - will prinnt alphabet 10 times
+ * Return: Always 0
  */
 void print_alphabet_x10(void)
 
