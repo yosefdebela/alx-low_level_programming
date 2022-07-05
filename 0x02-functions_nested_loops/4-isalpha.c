@@ -1,9 +1,9 @@
 #include "main.h"
+#include <unistd.h>
 /*
- * _isalpha -checks for alphabetical letters
+ * _isalpha - checks for alphabetical letters
  * @c: character to be checked
- * return: return 0 or 1 based on the outcome value
- * _isalpha -> alphabetical check
+ * return:  0 or 1 based on the outcome value
  */
 int _isalpha(int c)
 
