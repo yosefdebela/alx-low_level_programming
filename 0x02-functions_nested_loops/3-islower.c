@@ -1,5 +1,5 @@
-#include "main.h"                                             
-/** 
+#include "main.h"
+/**
 *_islower - Check desctiption
 * @c: An input character
 * Description: function uses _putchar function to print
