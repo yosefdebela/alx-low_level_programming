@@ -4,7 +4,6 @@
  * print_alphabet >- in lowercase
  */
 void print_alphabet(void)
-
 {
 		int j;
 
