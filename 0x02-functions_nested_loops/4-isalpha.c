@@ -1,14 +1,23 @@
-#include "main.h"
 #include <unistd.h>
-/*
- * _isalpha - checks for alphabetical letters
- * Description - function used for ordering
- * @c: character to be checked
- * return:  0 or 1 based on the outcome value
- */
+#include "main.h"
+/**
+*_isalpha - Check description
+* @c: An input character
+* Description: Function that checks for alphabetic character and
+* returns 1 if c is a letter otherwise return 0
+*  Return:  1 or 0 in otherwise.
+*/
 int _isalpha(int c)
-
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-
+char lower, upper;
+int letter = 0;
+for (lower = 'a'; lower <= 'z'; lower++)
+{
+for (upper = 'A'; upper <= 'Z'; upper++)
+{
+if (c == lower || c == upper)
+letter = 1;
+}
+}
+return (letter);
 }
