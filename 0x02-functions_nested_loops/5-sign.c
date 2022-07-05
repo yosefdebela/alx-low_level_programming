@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *print _sign -> print sign based on condition
 *@n: argument passed
@@ -23,5 +22,4 @@ int print_sign(int n)
 		return (-);
 	}
 }
-
 
