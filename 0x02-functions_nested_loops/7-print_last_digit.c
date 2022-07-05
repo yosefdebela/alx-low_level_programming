@@ -3,8 +3,9 @@
 /**
 *print_last_digit - Check Holberton
 *@r: An integer input
-*Description: This function prints the last digit of a number* Return: last digit of number r
-*
+*Description: This function prints the last digit of a number
+*Return: last digit of number
+*/
 int print_last_digit(int r)
 {
 int n;
