@@ -3,7 +3,7 @@
 /*
  * int_abs absolute value of a number
  */
-int print_last_digit(int)
+int _abs(int n)
 {
 	if (n < 0)
 	n = -n
