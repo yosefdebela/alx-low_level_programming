@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - print 
- * putchar - writes the character c to stdout
+ * main - print
+ * putchar - writes the character 
  * @c: The character to print
  * Return: On success 1
  */
