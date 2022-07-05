@@ -4,8 +4,7 @@
 /**
  * main - description
  * putchar - writes the character
- * @c: The character to print
- * Return: On success 1
+ * Return: On success 0
  */
 int main(void)
 {
