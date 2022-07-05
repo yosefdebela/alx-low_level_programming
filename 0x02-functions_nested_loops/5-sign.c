@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print _sign -> print sign based on condition
+*print_sign -> print sign based on condition
 *@n: argument passed
 *Return : 1, 0 and -1
 */
@@ -16,7 +16,7 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else 
+	else
 	{
 		_putchar('-');
 		return (-1);
