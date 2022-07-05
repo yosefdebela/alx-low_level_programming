@@ -1,25 +1,29 @@
+#include <unistd.h>
 #include "main.h"
 /**
-*desctiption-print_sign -> print sign based on condition
-*@n: argument passed
-*Return : 1, 0 and -1
+* print_sign -check Holberton
+* @n: An input number
+* Desctiption: Function print the sign of the number
+* Return: 1 if number is positive, o if number is 0, or
+* -1 if number is negative
 */
 int print_sign(int n)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
-	else
-	{
-		_putchar('-');
-		return (-1);
-	}
+int tester;
+if (n > 0)
+{
+tester = 1;
+_putchar('+');
 }
-
+else if (n == 0)
+{
+tester = 0;
+_putchar('0');
+}
+else
+{
+tester = -1;
+_putchar('-');
+}
+return (tester);
+}
