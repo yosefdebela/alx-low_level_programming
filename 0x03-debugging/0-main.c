@@ -5,9 +5,7 @@
  * main Descripton -test function that prints if integer pos or negatiave
  *  Return: 0 - up on success
  */
-
 int main(void)
-
 {
 	int i;
 
