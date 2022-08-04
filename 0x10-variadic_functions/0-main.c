@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * main - check the code for Holberton School students.
+ * main - check code for alx project variadic.
  * Return: Always 0.
  */
 int main(void)
